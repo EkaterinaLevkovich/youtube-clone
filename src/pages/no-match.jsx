@@ -1,6 +1,9 @@
 /* eslint-disable arrow-body-style */
 export const NoMatch = () => {
   return (
-    <div>no-match</div>
+    <>
+      <div>UPS</div>
+      <div>Page not found</div>
+    </>
   );
 };
