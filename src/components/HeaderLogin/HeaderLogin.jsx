@@ -6,6 +6,12 @@ import { LoginButton } from '../LoginButton/LoginButton';
 import { Settings } from '../Settings/Settings';
 import { SideBar } from '../SideBar/SideBar';
 import { YouTubeApps } from '../YouTubeApps/YouTubeApps';
+import burgerIcon from '../../assets/image/Hamburger_icon.svg';
+import youTubeLogo from '../../assets/image/YouTube_Logo.svg';
+import searchIcon from '../../assets/image/Search_icon.png';
+import microphoneIcon from '../../assets/image/Microphone_icon.png';
+import youtubeAppsIcon from '../../assets/image/YouTubeApps_icon.png';
+import settingsIcon from '../../assets/image/SettingsApps_icon.png';
 
 export const HeaderLogin = () => {
   const [visibility, setVisibility] = useState(false);
@@ -39,31 +45,31 @@ export const HeaderLogin = () => {
       <div className="header">
         <div className="header__left">
           <button type="button" className="menu-button" onClick={() => visibilitySideBar()}>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Hamburger_icon.svg" alt="burger-menu" />
+            <img src={burgerIcon} alt="burger-menu" />
           </button>
-          <Link to="/">
+          <Link to="/youtube-clone/">
             <button type="button" onClick={handleRecomended} className="logo-button">
-              <img className="header__logo" src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="youtube logo" />
+              <img className="header__logo" src={youTubeLogo} alt="youtube logo" />
             </button>
           </Link>
         </div>
         <form className="header__center">
           <input type="text" ref={inputRef} placeholder="Search" />
-          <Link to="/">
+          <Link to="/youtube-clone/">
             <button onClick={handleSearch} type="button" className="header__searchbutton">
-              <img src="https://cdn-icons-png.flaticon.com/512/622/622669.png" alt="search" />
+              <img src={searchIcon} alt="search" />
             </button>
           </Link>
           <button type="button" className="header__microphone">
-            <img src="https://cdn-icons-png.flaticon.com/512/25/25682.png" alt="microphone" />
+            <img src={microphoneIcon} alt="microphone" />
           </button>
         </form>
         <div className="header__right">
           <button type="button" className="menu-button" onClick={() => visibilityYouTubeApps()}>
-            <img src="https://cdn-icons-png.flaticon.com/512/17/17704.png" alt="" />
+            <img src={youtubeAppsIcon} alt="youtubeappsmenu" />
           </button>
           <button type="button" className="menu-button" onClick={() => visibilitySettingsApps()}>
-            <img src="https://cdn-icons-png.flaticon.com/512/61/61140.png" alt="" />
+            <img src={settingsIcon} alt="settingsappsmenu" />
           </button>
           <LoginButton />
         </div>

@@ -1,27 +1,31 @@
 /* eslint-disable arrow-body-style */
 import PropTypes from 'prop-types';
 import { YouTubeAppsRow } from './YouTubeAppsRow/YouTubeAppsRow';
+import youTubeTVIcon from '../../assets/image/YouTubeTV_icon.png';
+import youTubeMusicIcon from '../../assets/image/YouTubeMusic_icon.png';
+import youTubeKidsIcon from '../../assets/image/YouTubeKids_icon.png';
+import youTubeArtistsIcon from '../../assets/image/YouTubeArtists_icon.png';
 
 export const YouTubeApps = ({ visibility }) => {
   return (
     <div className="youtubeapps" style={{ display: visibility ? 'inline' : 'none' }}>
       <div>
-        <YouTubeAppsRow icon="https://cdn-icons-png.flaticon.com/512/814/814156.png" title="YouTube TV" />
+        <YouTubeAppsRow icon={youTubeTVIcon} title="YouTube TV" />
       </div>
       <hr />
       <div>
         <ul>
           <li>
-            <YouTubeAppsRow icon="https://cdn-icons.flaticon.com/png/512/4494/premium/4494485.png?token=exp=1650992431~hmac=2f113b8e26bd02d2335f9af183641c26" title="YouTube Music" />
+            <YouTubeAppsRow icon={youTubeMusicIcon} title="YouTube Music" />
           </li>
           <li>
-            <YouTubeAppsRow icon="https://cdn-icons-png.flaticon.com/512/1383/1383260.png" title="YouTube Kids" />
+            <YouTubeAppsRow icon={youTubeKidsIcon} title="YouTube Kids" />
           </li>
         </ul>
       </div>
       <hr />
       <div>
-        <YouTubeAppsRow icon="https://cdn-icons-png.flaticon.com/512/2111/2111748.png" title="YouTube for Artists" />
+        <YouTubeAppsRow icon={youTubeArtistsIcon} title="YouTube for Artists" />
       </div>
     </div>
   );

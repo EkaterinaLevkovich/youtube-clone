@@ -1,5 +1,11 @@
 /* eslint-disable arrow-body-style */
 import { SideBarMenuRow } from './SideBarMenuRow/SideBarMenuRow';
+import homeIcon from '../../assets/image/Home_icon.png';
+import exploreIcon from '../../assets/image/Explore_icon.png';
+import shortsIcon from '../../assets/image/Shorts_icon.png';
+import subscriptionsIcon from '../../assets/image/Subscriptions_icon.png';
+import libraryIcon from '../../assets/image/Library_icon.png';
+import historyIcon from '../../assets/image/History_icon.png';
 
 export const SideBarMenu = () => {
   return (
@@ -8,22 +14,22 @@ export const SideBarMenu = () => {
         <h3 style={{ display: 'none' }}>youtube menu</h3>
         <ul>
           <li>
-            <SideBarMenuRow icon="https://cdn-icons-png.flaticon.com/512/1946/1946436.png" title="Home" />
+            <SideBarMenuRow icon={homeIcon} title="Home" />
           </li>
           <li>
-            <SideBarMenuRow icon="https://cdn-icons-png.flaticon.com/512/77/77521.png" title="Explore" />
+            <SideBarMenuRow icon={exploreIcon} title="Explore" />
           </li>
           <li>
-            <SideBarMenuRow icon="https://cdn-icons-png.flaticon.com/512/2991/2991195.png" title="Shorts" />
+            <SideBarMenuRow icon={shortsIcon} title="Shorts" />
           </li>
           <li>
-            <SideBarMenuRow icon="https://cdn-icons.flaticon.com/png/512/2989/premium/2989849.png?token=exp=1649259061~hmac=0b5a23a111b05459c6e3fe3eaaa5456c" title="Substrictions" />
+            <SideBarMenuRow icon={subscriptionsIcon} title="Substrictions" />
           </li>
           <li>
-            <SideBarMenuRow icon="https://cdn-icons.flaticon.com/png/512/2989/premium/2989835.png?token=exp=1649259161~hmac=4c3689e33d0abc2a731c271b9ea87cfe" title="Library" />
+            <SideBarMenuRow icon={libraryIcon} title="Library" />
           </li>
           <li>
-            <SideBarMenuRow icon="https://cdn-icons.flaticon.com/png/512/2961/premium/2961948.png?token=exp=1649259232~hmac=31291fbeb693f8d2f5b557107d74cc0f" title="History" />
+            <SideBarMenuRow icon={historyIcon} title="History" />
           </li>
         </ul>
       </article>

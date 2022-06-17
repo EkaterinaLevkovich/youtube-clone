@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 export const YouTubeAppsRow = ({ icon, title }) => {
   return (
     <a href={`${title}`} className="youtubeappsrow">
-      <img src={icon} alt="" className="youtubeappsrow__icon" />
+      <img src={icon} alt={title} className="youtubeappsrow__icon" />
       <span className="youtubeappsrow__title">{title}</span>
     </a>
   );

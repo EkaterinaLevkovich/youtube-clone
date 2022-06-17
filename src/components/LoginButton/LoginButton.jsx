@@ -1,4 +1,5 @@
 import { Authorization } from '../../api/youtube/authorization';
+import signInIcon from '../../assets/image/SignIn_icon.png';
 
 export const LoginButton = () => {
   const handleClick = () => {
@@ -8,7 +9,7 @@ export const LoginButton = () => {
   return (
     <div>
       <button onClick={handleClick} type="button" className="button__login">
-        <img src="https://cdn-icons-png.flaticon.com/512/5087/5087579.png" alt="sign in" />
+        <img src={signInIcon} alt="sign in" />
         <span>SIGN IN</span>
       </button>
     </div>
