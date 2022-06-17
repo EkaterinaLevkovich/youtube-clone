@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/youtube-clone/static/css/main.bdef28e3.css",
+    "main.js": "/youtube-clone/static/js/main.5cc0c2bc.js",
+    "static/js/787.0536e28c.chunk.js": "/youtube-clone/static/js/787.0536e28c.chunk.js",
+    "static/media/SignIn_icon.png": "/youtube-clone/static/media/SignIn_icon.a952913a7a42e036aa49.png",
+    "static/media/Location_icon.png": "/youtube-clone/static/media/Location_icon.ef333930ca7f3706eb52.png",
+    "static/media/Settings_icon.png": "/youtube-clone/static/media/Settings_icon.f122fb71160e3ce69d82.png",
+    "static/media/UserData_icon.png": "/youtube-clone/static/media/UserData_icon.615aa4244b8e9d1e401e.png",
+    "static/media/YouTubeTV_icon.png": "/youtube-clone/static/media/YouTubeTV_icon.e654c3a325135ab77846.png",
+    "static/media/Help_icon.png": "/youtube-clone/static/media/Help_icon.19d88b9044470334fe10.png",
+    "static/media/Explore_icon.png": "/youtube-clone/static/media/Explore_icon.8e66ae0feef78a8a4e3a.png",
+    "static/media/Appearance_icon.png": "/youtube-clone/static/media/Appearance_icon.343e37a16e3dcba64b79.png",
+    "static/media/YouTubeMusic_icon.png": "/youtube-clone/static/media/YouTubeMusic_icon.578d8487aa31987c02ef.png",
+    "static/media/Language_icon.png": "/youtube-clone/static/media/Language_icon.093b99bd82b4c9b67c77.png",
+    "static/media/Search_icon.png": "/youtube-clone/static/media/Search_icon.1d92f967297920015306.png",
+    "static/media/YouTubeKids_icon.png": "/youtube-clone/static/media/YouTubeKids_icon.641072cf09a4a8753f67.png",
+    "static/media/Live_icon.png": "/youtube-clone/static/media/Live_icon.1db50f85f8add429196e.png",
+    "static/media/Gaming_icon.png": "/youtube-clone/static/media/Gaming_icon.c64b312dfeb9531b7952.png",
+    "static/media/Music_icon.png": "/youtube-clone/static/media/Music_icon.ae21bdeac4020a494fd3.png",
+    "static/media/History_icon.png": "/youtube-clone/static/media/History_icon.319aeae4e0d0e1f4192e.png",
+    "static/media/Sports_icon.png": "/youtube-clone/static/media/Sports_icon.f3d777bda9201a36a79f.png",
+    "static/media/360Video_icon.png": "/youtube-clone/static/media/360Video_icon.3aefdfc2362c31b4cb53.png",
+    "static/media/YouTubeArtists_icon.png": "/youtube-clone/static/media/YouTubeArtists_icon.24ee5bac86a133d4b297.png",
+    "static/media/News_icon.png": "/youtube-clone/static/media/News_icon.7a62bf59f9350746f279.png",
+    "static/media/YouTube_Logo.svg": "/youtube-clone/static/media/YouTube_Logo.39a29ffe308d96fa6e1dcd776f6262c1.svg",
+    "index.html": "/youtube-clone/index.html",
+    "static/media/Hamburger_icon.svg": "/youtube-clone/static/media/Hamburger_icon.b778cb1777612594612f0bf2e4ff8477.svg",
+    "main.bdef28e3.css.map": "/youtube-clone/static/css/main.bdef28e3.css.map",
+    "main.5cc0c2bc.js.map": "/youtube-clone/static/js/main.5cc0c2bc.js.map",
+    "787.0536e28c.chunk.js.map": "/youtube-clone/static/js/787.0536e28c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bdef28e3.css",
+    "static/js/main.5cc0c2bc.js"
+  ]
+}
